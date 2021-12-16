@@ -1,4 +1,6 @@
 # Kubernetes Mutating Webhook for Sidecar Injection
+>> Update to make it work for latest Kubernetes v1.22+ <br>
+>> Api change: admissionregistration.k8s.io/v1beta1 -> admissionregistration.k8s.io/v1
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/morvencao/kube-mutating-webhook-tutorial)](https://goreportcard.com/report/github.com/morvencao/kube-mutating-webhook-tutorial)
 [![GoDoc](https://godoc.org/github.com/morvencao/kube-mutating-webhook-tutorial?status.svg)](https://godoc.org/github.com/morvencao/kube-mutating-webhook-tutorial)
